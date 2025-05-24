@@ -3,7 +3,8 @@
  * Plugin Name: Custom Blocks
  * Description: A modular Gutenberg blocks plugin for hero, testimonial, and bottom CTA sections.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Selvakumar Duraipandian
+ * Author URI:https://linkedin.com/in/selvakumarduraipandian
  */
 
 if (!defined('ABSPATH')) {
