@@ -1,0 +1,10 @@
+.custom-hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f0f0f0;
+}
+
+.custom-hero-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}

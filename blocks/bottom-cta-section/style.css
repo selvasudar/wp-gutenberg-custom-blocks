@@ -1,0 +1,18 @@
+.custom-bottom-cta-section {
+    text-align: center;
+    padding: 20px;
+    background: #0073aa;
+}
+
+.custom-bottom-cta-section .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #ffffff;
+    color: #0073aa;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.custom-bottom-cta-section .cta-button:hover {
+    background: #f0f0f0;
+}
