@@ -1,0 +1,73 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "cgb/hero-section",
+    "version": "1.0.0",
+    "title": "Hero Section",
+    "category": "design",
+    "icon": "cover-image",
+    "description": "A customizable hero section with title, subtitle, button, and background options.",
+    "keywords": ["hero", "banner", "header", "cta"],
+    "textdomain": "custom-gutenberg-blocks",
+    "supports": {
+        "html": false,
+        "anchor": true,
+        "className": true,
+        "customClassName": true
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Hero Title"
+        },
+        "subtitle": {
+            "type": "string",
+            "default": "Your compelling subtitle goes here"
+        },
+        "buttonText": {
+            "type": "string",
+            "default": "Call to Action"
+        },
+        "buttonUrl": {
+            "type": "string",
+            "default": "#"
+        },
+        "backgroundImage": {
+            "type": "string",
+            "default": ""
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": "#000000"
+        },
+        "textColor": {
+            "type": "string",
+            "default": "#ffffff"
+        },
+        "alignment": {
+            "type": "string",
+            "default": "center",
+            "enum": ["left", "center", "right"]
+        },
+        "height": {
+            "type": "string",
+            "default": "medium",
+            "enum": ["small", "medium", "large", "full"]
+        }
+    },
+    "example": {
+        "attributes": {
+            "title": "Welcome to Our Site",
+            "subtitle": "Discover amazing content and join our community",
+            "buttonText": "Get Started",
+            "buttonUrl": "#",
+            "backgroundColor": "#2196F3",
+            "textColor": "#ffffff",
+            "alignment": "center",
+            "height": "medium"
+        }
+    },
+    "editorScript": "file:./block.js",
+    "editorStyle": "file:./style.css",
+    "style": "file:./style.css"
+}

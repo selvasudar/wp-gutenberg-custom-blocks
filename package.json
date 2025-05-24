@@ -1,0 +1,40 @@
+{
+  "name": "custom-gutenberg-blocks",
+  "version": "1.0.0",
+  "description": "Custom Gutenberg blocks for WordPress",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "dev": "wp-scripts start",
+    "start": "wp-scripts start",
+    "packages-update": "wp-scripts packages-update",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "blocks",
+    "custom-blocks"
+  ],
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.18.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^12.20.0",
+    "@wordpress/blocks": "^12.29.0",
+    "@wordpress/components": "^25.16.0",
+    "@wordpress/element": "^5.29.0",
+    "@wordpress/i18n": "^4.52.0",
+    "react-beautiful-dnd": "^13.1.1"
+  }
+}

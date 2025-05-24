@@ -1,0 +1,73 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "cgb/accordion",
+    "version": "1.0.0",
+    "title": "Accordion",
+    "category": "design",
+    "icon": "list-view",
+    "description": "Create expandable accordion sections with dynamic tabs.",
+    "keywords": ["accordion", "tabs", "collapse", "faq"],
+    "textdomain": "custom-gutenberg-blocks",
+    "supports": {
+        "html": false,
+        "anchor": true,
+        "className": true,
+        "customClassName": true
+    },
+    "attributes": {
+        "accordionItems": {
+            "type": "array",
+            "default": [
+                {
+                    "id": "item-1",
+                    "title": "First Accordion Item",
+                    "content": "This is the content for the first accordion item. You can add any text here.",
+                    "isOpen": false
+                }
+            ]
+        },
+        "allowMultiple": {
+            "type": "boolean",
+            "default": false
+        },
+        "style": {
+            "type": "string",
+            "default": "default",
+            "enum": ["default", "bordered", "minimal"]
+        },
+        "titleColor": {
+            "type": "string",
+            "default": "#333333"
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": "#f8f9fa"
+        },
+        "borderColor": {
+            "type": "string",
+            "default": "#dee2e6"
+        }
+    },
+    "example": {
+        "attributes": {
+            "accordionItems": [
+                {
+                    "id": "example-1",
+                    "title": "What is an accordion?",
+                    "content": "An accordion is a vertically stacked list of items, each of which can be expanded or collapsed to reveal more content.",
+                    "isOpen": false
+                },
+                {
+                    "id": "example-2",
+                    "title": "How to use this block?",
+                    "content": "Simply add content to each accordion item and customize the appearance using the settings panel.",
+                    "isOpen": false
+                }
+            ]
+        }
+    },
+    "editorScript": "file:./block.js",
+    "editorStyle": "file:./style.css",
+    "style": "file:./style.css"
+}
