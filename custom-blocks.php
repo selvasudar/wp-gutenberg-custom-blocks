@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Custom Gutenberg Blocks
- * Plugin URI: https://yourwebsite.com/
+ * Plugin URI: https://www.linkedin.com/in/selvakumarduraipandian/
  * Description: A collection of custom Gutenberg blocks for WordPress.
  * Version: 1.0.0
- * Author: Your Name
- * Author URI: https://yourwebsite.com/
+ * Author: Selvakumar Duraipandian
+ * Author URI: https://www.linkedin.com/in/selvakumarduraipandian/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: custom-gutenberg-blocks
